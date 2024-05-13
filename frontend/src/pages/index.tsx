@@ -81,7 +81,7 @@ export default function Home() {
             href={`/countries/${country.code}`}
             className="flex flex-col justify-center items-center gap-4 w-32 border border-gray-300 p-4 bg-rose-100 hover:bg-rose-200"
           >
-            <p>{country.emoji}</p>
+            <p className="text-2xl">{country.emoji}</p>
             <p className="text-center">{country.name}</p>
           </Link>
         ))}
